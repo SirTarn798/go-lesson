@@ -3,10 +3,10 @@ package point
 import "fmt"
 
 type Point struct {
-	x int
-	y int
+	X int
+	Y int
 }
 
 func (p *Point) Print() {
-	fmt.Println(p.x)
+	fmt.Println(p.X)
 }
